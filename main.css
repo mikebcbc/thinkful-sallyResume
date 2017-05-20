@@ -98,3 +98,48 @@ nav a:hover {
 	color: #8E2800;
 	text-align: center;
 }
+
+.m-wrapper.contact {
+	background-color: #FFF0A5;
+}
+
+#contact {
+	padding-bottom: 0;
+}
+
+.contact .heading {
+	color: #8E2800;
+	text-align: right;
+}
+
+.contact-flex-row, .sally-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contact-info h3 {
+	font-size: 1.6em;
+}
+
+.contact-info {
+	align-self: flex-start;
+}
+
+.sally-info img {
+	width: 480px;
+}
+
+.contact-button {
+	font-size: 1.2em;
+	height: 50px;
+	padding: 0 50px;
+	box-shadow: none;
+	border: none;
+	color: #FFF0A5;
+	background-color: #B64926;
+	border-radius: 5px;
+	align-self: flex-end;
+	margin-top: 20px;
+}
