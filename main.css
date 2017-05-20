@@ -3,19 +3,24 @@ body {
 	font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
 header {
 	background-color: #B64926;
 	border-bottom: 5px solid #8E2800;
 }
 
 .h-wrapper {
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	color: #FFF0A5;
+	padding: 20px 0;
 }
 
 nav a {
@@ -32,6 +37,38 @@ nav a:hover {
 	border-bottom: 2px solid #FFF0A5;
 }
 
-.logo-text {
+.m-wrapper section {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+.education .heading {
+	font-size: 1.8em;
+	width: 250px;
+	padding-bottom: 5px;
+	color: #8E2800;
+	border-bottom: #8E2800 2px solid;
+}
+
+.education .flex-row {
+	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 35px;
+}
+
+.education .school {
+	text-align: center;
+}
+
+.education .school > img {
+	background-color: white;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.m-wrapper.education {
+	background-color: #FFF0A5;
 }
