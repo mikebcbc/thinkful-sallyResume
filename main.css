@@ -3,8 +3,12 @@ body {
 	font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
 	margin: 0;
+}
+
+h3 {
+	margin-bottom: 0;
 }
 
 header {
@@ -43,19 +47,36 @@ nav a:hover {
 	padding: 25px 0;
 }
 
-.education .heading {
+.heading {
 	font-size: 1.8em;
-	width: 250px;
 	padding-bottom: 5px;
-	color: #8E2800;
-	border-bottom: #8E2800 2px solid;
 }
 
-.education .flex-row {
+.m-wrapper .hr-heading {
+	border: 1px solid #8E2800;
+	width: 250px;
+}
+
+.m-wrapper.education {
+	background-color: #FFF0A5;
+}
+
+.education .heading {
+	color: #8E2800;
+}
+
+.flex-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	padding: 35px;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	padding: 35px;
 }
 
@@ -69,6 +90,11 @@ nav a:hover {
 	padding: 5px;
 }
 
-.m-wrapper.education {
-	background-color: #FFF0A5;
+.m-wrapper.employment {
+	background-color: #FFB03B;
+}
+
+.employment .heading {
+	color: #8E2800;
+	text-align: center;
 }
